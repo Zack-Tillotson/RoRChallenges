@@ -1,0 +1,65 @@
+body {
+	margin: 0px auto;
+	padding: 0px;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+h1 {
+	color: grey;
+	font-size: 30px;
+	background-color: #ddd;
+	margin: 0px;
+	padding: 20px;
+	text-shadow: 1px 1px 1px white;
+	border-bottom: outset 7px #AF0E00;
+	text-align: center;
+	line-height: 100%;
+}
+
+div.card {
+	width: 200px;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	background-color: #bbb;
+	color: white;
+	font-size: 30px;
+	border: outset 2px #aaa;
+	text-shadow: 1px 1px 1px black;
+}
+
+div.card:hover {
+	cursor: pointer;
+}
+
+div#presentation {
+	clear: both;
+	display: none;
+	margin-left: 15px;
+	margin-top: 15px;
+	line-height: 1;
+}
+
+div#presentation .title-desc {
+	font-size: 15px;
+	color: grey;
+}
+
+div#presentation .title {
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 10px;
+	color: maroon;
+	text-shadow: 1px 1px 1px black;
+}
+
+div#presentation .title-desc {
+	font-size: 15px;
+	color: grey;
+}
+
+div#presentation .links {
+	font-size: 12px;
+}

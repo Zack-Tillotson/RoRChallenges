@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p class="title-desc">You're task, should you choose to accept it, is:</p>
+
+<p class="title">
+  <%= @challenge.title %>
+</p>
+<p class="description">
+  <%= @challenge.description %>
+</p>
+<p class="pic">
+<!--  <img src="<%= @challenge.image_url %>"></img>-->
+</p>
+<%= link_to 'Edit', edit_challenge_path(@challenge) %>
+<%= link_to 'Start Again', root_url %>

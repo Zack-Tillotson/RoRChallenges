@@ -1,0 +1,16 @@
+<% 
+	i = 1
+%>
+<h1>A Little Spoon And Fork Helper</h1>
+<% @challenges.each do |challenge| %>
+<div class="card" id="<%= challenge.id %>">
+	<%=link_to i, challenge %>
+</div>
+<%
+	i = i + 1
+%>
+<% end %>
+<div id="presentation">
+	<img src="/images/loading.gif"></img>
+</div>
+<%= javascript_include_tag "main.js" %>
